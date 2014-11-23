@@ -1,0 +1,17 @@
+- input: 'k1low@example.com'
+  expect: true
+
+- input: 'k1low.xb@example.com'
+  expect: true
+  
+- input: '@example.com'
+  expect: false
+
+- input: 'k1low..xb@example.com'
+  expect: true
+
+- input: '..xb@example.com'
+  expect: true
+  
+- input: ''
+  expect: false
