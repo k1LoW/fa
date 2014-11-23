@@ -1,0 +1,11 @@
+- input: '810-0042'
+  expect: true
+
+- input: '8100042'
+  expect: false
+
+- input: '81000-42'
+  expect: false
+  
+- input: ''
+  expect: false
