@@ -1,0 +1,14 @@
+- input: '1234'
+  expect: false
+
+- input: 'abc'
+  expect: false
+
+- input: 'あいうえお'
+  expect: false
+
+- input: 'カキクケコ'
+  expect: true
+
+- input: '（。ー。）、'
+  expect: false

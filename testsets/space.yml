@@ -1,0 +1,15 @@
+- input: ' '
+  expect: true
+
+# 全角スペース
+- input: '　'
+  expect: false
+  
+- input: '     '
+  expect: true
+
+- input: 'a b'
+  expect: false
+
+- input: ''
+  expect: true

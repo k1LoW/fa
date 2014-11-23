@@ -1,0 +1,14 @@
+- input: '、。'
+  expect: true
+
+- input: '！＆＊'
+  expect: true
+
+- input: '△'
+  expect: false
+  
+- input: '-'
+  expect: false
+
+- input: ''
+  expect: true

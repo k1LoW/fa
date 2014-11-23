@@ -1,0 +1,17 @@
+- input: '0'
+  expect: false
+
+- input: '1234'
+  expect: false
+  
+- input: 'abc'
+  expect: true
+
+- input: '1abc'
+  expect: false
+
+- input: 'a-bc'
+  expect: false
+
+- input: 'ABCdef'
+  expect: true

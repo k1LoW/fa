@@ -1,0 +1,17 @@
+- input: '1234'
+  expect: true
+
+- input: '-1234'
+  expect: true
+
+- input: '12-34'
+  expect: false
+
+- input: '-12a0'
+  expect: false
+  
+- input: '0'
+  expect: true
+
+- input: ''
+  expect: false

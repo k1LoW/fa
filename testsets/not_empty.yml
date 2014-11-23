@@ -1,0 +1,5 @@
+- input: ''
+  expect: false
+
+- input: 'Hello Assert'
+  expect: true

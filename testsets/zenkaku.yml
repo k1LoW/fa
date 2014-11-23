@@ -1,0 +1,17 @@
+- input: '1234'
+  expect: false
+
+- input: 'abc'
+  expect: false
+
+- input: 'あいうえお'
+  expect: true
+
+- input: 'カキクケコ'
+  expect: true
+
+- input: 'パーフェクトPHP'
+  expect: false
+
+- input: '（。ー。）、'
+  expect: true

@@ -1,0 +1,11 @@
+- input: ' '
+  expect: false
+  
+- input: '　'
+  expect: true
+
+- input: 'Ａ　Ｂ'
+  expect: false
+
+- input: ''
+  expect: true

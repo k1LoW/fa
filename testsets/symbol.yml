@@ -1,0 +1,8 @@
+- input: 'abc'
+  expect: false
+
+- input: '1234'
+  expect: false
+
+- input: '!"#$%&''()*+,-./:;<=>?@[\]^_`{|}~'
+  expect: true

@@ -1,0 +1,8 @@
+- input: '-'
+  expect: true
+
+- input: '----'
+  expect: true
+  
+- input: 'ー'
+  expect: false
