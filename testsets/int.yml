@@ -9,6 +9,9 @@
 
 - input: '-12a0'
   expect: false
+
+- input: '-12.5'
+  expect: false
   
 - input: '0'
   expect: true

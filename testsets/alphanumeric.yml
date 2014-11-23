@@ -1,17 +1,17 @@
 - input: '0'
-  expect: false
+  expect: true
 
 - input: '1234'
-  expect: false
+  expect: true
 
 - input: 'abc1234'
-  expect: false
+  expect: true
   
 - input: 'abc'
   expect: true
 
 - input: '1abc'
-  expect: false
+  expect: true
 
 - input: 'a-bc'
   expect: false
