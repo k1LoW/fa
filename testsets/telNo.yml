@@ -1,0 +1,17 @@
+- input: '012-345-6789'
+  expect: true
+
+- input: '0123-45-6789'
+  expect: true
+
+- input: '01234-5-6789'
+  expect: true
+  
+- input: '0123-456-789'
+  expect: false
+
+- input: '0123456789'
+  expect: false
+
+- input: ''
+  expect: false
